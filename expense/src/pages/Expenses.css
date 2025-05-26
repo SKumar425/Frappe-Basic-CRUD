@@ -1,0 +1,30 @@
+.tabs {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 16px;
+}
+
+.tab.active {
+  border-bottom: 2px solid #3182ce;
+  font-weight: bold;
+}
+
+.tab-panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
