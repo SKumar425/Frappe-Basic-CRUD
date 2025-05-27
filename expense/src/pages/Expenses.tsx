@@ -35,6 +35,11 @@ export const Expenses = () => {
             <Dashboard />
           </div>
         )}
+        {activeTab === 1 && (
+          <div className="tab-panel">
+            <Dashboard />
+          </div>
+        )}
       </div>
     </div>
   );
